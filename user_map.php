@@ -69,10 +69,13 @@ include 'locations_model.php';
                 "            <tr>\n" +
                 "                <td><a>Description:</a></td>\n" +
                 "                <td><textarea  id='manual_description' placeholder='Description'></textarea></td></tr>\n" +
+<<<<<<< HEAD
                 "                <td><a>Nombre:</a></td>\n" +
                 "                <td><textarea  id='manual_nombre' placeholder='Nombre'></textarea></td></tr>\n" +
                 "                <td><a>Tipo:</a></td>\n" +
                 "                <td><textarea  id='manual_tipo' placeholder='Tipo'></textarea></td></tr>\n" +
+=======
+>>>>>>> master
                 "            <tr><td></td><td><input type='button' value='Save' onclick='saveData("+lat+","+lng+")'/></td></tr>\n" +
                 "        </table>\n" +
                 "    </div>"
@@ -134,10 +137,13 @@ include 'locations_model.php';
                 "<tr>\n" +
                 "<td><a>Description:</a></td>\n" +
                 "<td><textarea disabled id='manual_description' placeholder='Description'>"+locations[i][3]+"</textarea></td></tr>\n" +
+<<<<<<< HEAD
                 "<td><a>Nombre:</a></td>\n" +
                 "<td><textarea disabled id='manual_nombre' placeholder='Nombre'>"+locations[i][3]+"</textarea></td></tr>\n" +
                 "<td><a>Tipo:</a></td>\n" +
                 "<td><textarea disabled id='manual_tipo' placeholder='Tipo'>"+locations[i][3]+"</textarea></td></tr>\n" +
+=======
+>>>>>>> master
                 "</table>\n" +
                 "</div>"
             });
@@ -149,8 +155,11 @@ include 'locations_model.php';
                     $("#confirmed").prop(confirmed,locations[i][4]);
                     $("#id").val(locations[i][0]);
                     $("#description").val(locations[i][3]);
+<<<<<<< HEAD
                     $("#nombre").val(locations[i][3]);
                     $("#tipo").val(locations[i][3]);
+=======
+>>>>>>> master
                     $("#form").show();
                     infowindow.setContent(marker.html);
                     infowindow.open(map, marker);
@@ -165,9 +174,13 @@ include 'locations_model.php';
          */
         function saveData(lat,lng) {
             var description = document.getElementById('manual_description').value;
+<<<<<<< HEAD
             var nombre = document.getElementById('manual_nombre').value;
             var tipo = document.getElementById('manual_tipo').value;
             var url = 'locations_model.php?add_location&description=' + description + nombre + tipo + '&lat=' + lat + '&lng=' + lng;
+=======
+            var url = 'locations_model.php?add_location&description=' + description + '&lat=' + lat + '&lng=' + lng;
+>>>>>>> master
             downloadUrl(url, function(data, responseCode) {
                 if (responseCode === 200  && data.length > 1) {
                     var markerId = getMarkerUniqueId(lat,lng); // get marker id by using clicked point's coordinate

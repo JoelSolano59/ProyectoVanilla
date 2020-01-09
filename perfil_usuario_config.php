@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 
+=======
+<?php
+  require_once "session_cliente.php";
+  require "perfil_usuario_config_code.php";
+  $datos_usuario = obtener_datos();
+?>
+>>>>>>> master
 
 <!DOCTYPE html>
 <html lang="en">
@@ -153,11 +161,21 @@
           <li class="breadcrumb-item active">Configuración</li>
       </ol>
 
+<<<<<<< HEAD
     
       
       <form class="ml-auto mr-0 mr-md-0 my-0 my-md-0">
           <div class="form-label-group mb-2">
               <input type="text" id="usuario" name="usuario" class="form-control" value="" required="required">
+=======
+      <?php 
+        foreach ($datos_usuario as $datos_usuario) {
+      ?>
+      
+      <form class="ml-auto mr-0 mr-md-0 my-0 my-md-0">
+          <div class="form-label-group mb-2">
+              <input type="text" id="usuario" name="usuario" class="form-control" value="<?php $datos_usuario['usuario'] ?>" required="required">
+>>>>>>> master
               <label for="usuario">Nombre:</label>
           </div>
           <div class="form-label-group mb-2">
@@ -165,6 +183,7 @@
               <label for="descripcion">Descripción:</label>
           </div>
           <div class="form-label-group mb-2">
+<<<<<<< HEAD
               <input type="date" id="f_nacimiento" name="f_nacimiento" class="form-control" value="" required="required">
               <label for="f_nacimiento">Fecha de nacimiento:</label>
           </div>
@@ -174,13 +193,28 @@
           </div>
           <div class="form-label-group mb-2">
               <input type="email" id="correo" name="correo" class="form-control" value="" required="required">
+=======
+              <input type="date" id="f_nacimiento" name="f_nacimiento" class="form-control" value="<?php $datos_usuario['f_nacimiento'] ?>" required="required">
+              <label for="f_nacimiento">Fecha de nacimiento:</label>
+          </div>
+          <div class="form-label-group mb-2">
+              <input type="tel" id="telefono" name="telefono" class="form-control" value="<?php $datos_usuario['telefono'] ?>" required="required">
+              <label for="telefono">Teléfono:</label>
+          </div>
+          <div class="form-label-group mb-2">
+              <input type="email" id="correo" name="correo" class="form-control" value="<?php $datos_usuario['correo'] ?>" required="required">
+>>>>>>> master
               <label for="correo">Correo:</label>
           </div>
           <div class="form-label-group mb-2">
               <input type="password" id="contra" name="contra" class="form-control" placeholder="contra" required="required">
               <label for="contra">Actualizar contraseña:</label>
           </div>
+<<<<<<< HEAD
           
+=======
+          <?php } ?>
+>>>>>>> master
       </form>
         <hr />
         <div class="btn-group mb-3" role="group">

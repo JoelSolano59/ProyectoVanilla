@@ -40,8 +40,11 @@ include_once 'locations_model.php';
                     $("#confirmed").prop(confirmed,locations[i][4]);
                     $("#id").val(locations[i][0]);
                     $("#description").val(locations[i][3]);
+<<<<<<< HEAD
                     $("#nombre").val(locations[i][3]);
                     $("#tipo").val(locations[i][3]);
+=======
+>>>>>>> master
                     $("#form").show();
                     infowindow.setContent(marker.html);
                     infowindow.open(map, marker);
@@ -89,10 +92,13 @@ include_once 'locations_model.php';
             <input name="id" type='hidden' id='id'/>
             <td><a>Description:</a></td>
             <td><textarea disabled id='description' placeholder='Description'></textarea></td>
+<<<<<<< HEAD
             <td><a>Nombre:</a></td>
             <td><textarea disabled id='nombre' placeholder='Nombre'></textarea></td>
             <td><a>Tipo:</a></td>
             <td><textarea disabled id='tipo' placeholder='Tipo'></textarea></td>
+=======
+>>>>>>> master
         </tr>
         <tr>
             <td><b>Confirm Location ?:</b></td>
