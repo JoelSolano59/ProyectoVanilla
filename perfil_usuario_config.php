@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 
 =======
@@ -7,6 +8,9 @@
   $datos_usuario = obtener_datos();
 ?>
 >>>>>>> master
+=======
+
+>>>>>>> Stashed changes
 
 <!DOCTYPE html>
 <html lang="en">
@@ -161,12 +165,16 @@
           <li class="breadcrumb-item active">Configuración</li>
       </ol>
 
+<<<<<<< Updated upstream
 <<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
     
       
       <form class="ml-auto mr-0 mr-md-0 my-0 my-md-0">
           <div class="form-label-group mb-2">
               <input type="text" id="usuario" name="usuario" class="form-control" value="" required="required">
+<<<<<<< Updated upstream
 =======
       <?php 
         foreach ($datos_usuario as $datos_usuario) {
@@ -176,6 +184,8 @@
           <div class="form-label-group mb-2">
               <input type="text" id="usuario" name="usuario" class="form-control" value="<?php $datos_usuario['usuario'] ?>" required="required">
 >>>>>>> master
+=======
+>>>>>>> Stashed changes
               <label for="usuario">Nombre:</label>
           </div>
           <div class="form-label-group mb-2">
@@ -183,7 +193,10 @@
               <label for="descripcion">Descripción:</label>
           </div>
           <div class="form-label-group mb-2">
+<<<<<<< Updated upstream
 <<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
               <input type="date" id="f_nacimiento" name="f_nacimiento" class="form-control" value="" required="required">
               <label for="f_nacimiento">Fecha de nacimiento:</label>
           </div>
@@ -193,6 +206,7 @@
           </div>
           <div class="form-label-group mb-2">
               <input type="email" id="correo" name="correo" class="form-control" value="" required="required">
+<<<<<<< Updated upstream
 =======
               <input type="date" id="f_nacimiento" name="f_nacimiento" class="form-control" value="<?php $datos_usuario['f_nacimiento'] ?>" required="required">
               <label for="f_nacimiento">Fecha de nacimiento:</label>
@@ -204,17 +218,23 @@
           <div class="form-label-group mb-2">
               <input type="email" id="correo" name="correo" class="form-control" value="<?php $datos_usuario['correo'] ?>" required="required">
 >>>>>>> master
+=======
+>>>>>>> Stashed changes
               <label for="correo">Correo:</label>
           </div>
           <div class="form-label-group mb-2">
               <input type="password" id="contra" name="contra" class="form-control" placeholder="contra" required="required">
               <label for="contra">Actualizar contraseña:</label>
           </div>
+<<<<<<< Updated upstream
 <<<<<<< HEAD
           
 =======
           <?php } ?>
 >>>>>>> master
+=======
+          
+>>>>>>> Stashed changes
       </form>
         <hr />
         <div class="btn-group mb-3" role="group">

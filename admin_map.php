@@ -40,11 +40,16 @@ include_once 'locations_model.php';
                     $("#confirmed").prop(confirmed,locations[i][4]);
                     $("#id").val(locations[i][0]);
                     $("#description").val(locations[i][3]);
+<<<<<<< Updated upstream
 <<<<<<< HEAD
                     $("#nombre").val(locations[i][3]);
                     $("#tipo").val(locations[i][3]);
 =======
 >>>>>>> master
+=======
+                    $("#nombre").val(locations[i][3]);
+                    $("#tipo").val(locations[i][3]);
+>>>>>>> Stashed changes
                     $("#form").show();
                     infowindow.setContent(marker.html);
                     infowindow.open(map, marker);
@@ -92,13 +97,19 @@ include_once 'locations_model.php';
             <input name="id" type='hidden' id='id'/>
             <td><a>Description:</a></td>
             <td><textarea disabled id='description' placeholder='Description'></textarea></td>
+<<<<<<< Updated upstream
 <<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
             <td><a>Nombre:</a></td>
             <td><textarea disabled id='nombre' placeholder='Nombre'></textarea></td>
             <td><a>Tipo:</a></td>
             <td><textarea disabled id='tipo' placeholder='Tipo'></textarea></td>
+<<<<<<< Updated upstream
 =======
 >>>>>>> master
+=======
+>>>>>>> Stashed changes
         </tr>
         <tr>
             <td><b>Confirm Location ?:</b></td>
