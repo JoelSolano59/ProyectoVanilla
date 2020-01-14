@@ -41,11 +41,16 @@ include_once 'locations_model.php';
                     $("#id").val(locations[i][0]);
                     $("#description").val(locations[i][3]);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
                     $("#nombre").val(locations[i][3]);
                     $("#tipo").val(locations[i][3]);
 =======
 >>>>>>> master
+=======
+                    $("#nombre").val(locations[i][3]);
+                    $("#tipo").val(locations[i][3]);
+>>>>>>> Stashed changes
 =======
                     $("#nombre").val(locations[i][3]);
                     $("#tipo").val(locations[i][3]);
@@ -98,7 +103,10 @@ include_once 'locations_model.php';
             <td><a>Description:</a></td>
             <td><textarea disabled id='description' placeholder='Description'></textarea></td>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
             <td><a>Nombre:</a></td>
@@ -106,8 +114,11 @@ include_once 'locations_model.php';
             <td><a>Tipo:</a></td>
             <td><textarea disabled id='tipo' placeholder='Tipo'></textarea></td>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 >>>>>>> master
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         </tr>

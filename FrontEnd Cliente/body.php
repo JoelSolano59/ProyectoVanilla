@@ -21,6 +21,7 @@
     </form>
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <!-- Navbar -->
 <ul class="navbar-nav ml-auto ml-md-0">
   <li class="nav-item dropdown no-arrow mx-1">
@@ -83,6 +84,10 @@
   <!-- Navbar -->
   <ul class="navbar-nav ml-auto ml-md-0"></ul>
 >>>>>>> Stashed changes
+=======
+  <!-- Navbar -->
+  <ul class="navbar-nav ml-auto ml-md-0"></ul>
+>>>>>>> Stashed changes
 
 </nav>
 
@@ -100,6 +105,7 @@
         <div class="dropdown-divider"></div>
         <a class="dropdown-item" href="perfil cliente.php">Perfil</a>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <a class="dropdown-item" href="perfil_usuario_config.html">Configuración</a>
         <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">Cerrar sesión</a>
       </div>
@@ -107,6 +113,8 @@
     <li class="nav-item">
       <a class="nav-link" href="lista_cupones.html">
 =======
+=======
+>>>>>>> Stashed changes
         <a class="dropdown-item" href="config.php">Configuración</a>
         <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">Cerrar sesión</a>
       </div>
@@ -130,13 +138,20 @@
     </li>
     <li class="nav-item">
       <a class="nav-link" href="cupon.php">
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         <i class="fas fa-ticket-alt"></i>
         <span>Cupones</span></a>
     </li>
     <li class="nav-item">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <a class="nav-link" href="mapa.html">
+=======
+      <a class="nav-link" href="mapa.php">
+>>>>>>> Stashed changes
 =======
       <a class="nav-link" href="mapa.php">
 >>>>>>> Stashed changes
@@ -145,7 +160,11 @@
     </li>
     <li class="nav-item">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <a class="nav-link" href="buscar.html">
+=======
+      <a class="nav-link" href="buscar.php">
+>>>>>>> Stashed changes
 =======
       <a class="nav-link" href="buscar.php">
 >>>>>>> Stashed changes

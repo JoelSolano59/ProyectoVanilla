@@ -188,6 +188,7 @@ require_once "body.php";
                     <label class="form-check-label" for="formCheck-1">Desayunos</label>
                 </div>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="formCheck-1" />
                     <label class="form-check-label" for="formCheck-1"></label>
@@ -197,10 +198,15 @@ require_once "body.php";
     </div>
     <div class="card">
 =======
+=======
+>>>>>>> Stashed changes
             </div>
         </div>
     </div>
     <div class="card mb-3">
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         <div class="card-header" role="tab">
             <h5 class="mb-0"><a data-toggle="collapse" aria-expanded="false" aria-controls="accordion-1 .item-2" href="#accordion-1 .item-2">Resultados</a></h5>

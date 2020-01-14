@@ -48,7 +48,11 @@
                   });
               });
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               s.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyBId8QPxcART0pYyVoByO-mxDUeMvhlN_s`;
+=======
+              s.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyB6go4M7I4BjnbhK_Oi12v-Ac-vnDSjBm4`;
+>>>>>>> Stashed changes
 =======
               s.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyB6go4M7I4BjnbhK_Oi12v-Ac-vnDSjBm4`;
 >>>>>>> Stashed changes

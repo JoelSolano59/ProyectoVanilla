@@ -70,7 +70,10 @@ include 'locations_model.php';
                 "                <td><a>Description:</a></td>\n" +
                 "                <td><textarea  id='manual_description' placeholder='Description'></textarea></td></tr>\n" +
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
                 "                <td><a>Nombre:</a></td>\n" +
@@ -78,8 +81,11 @@ include 'locations_model.php';
                 "                <td><a>Tipo:</a></td>\n" +
                 "                <td><textarea  id='manual_tipo' placeholder='Tipo'></textarea></td></tr>\n" +
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 >>>>>>> master
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
                 "            <tr><td></td><td><input type='button' value='Save' onclick='saveData("+lat+","+lng+")'/></td></tr>\n" +
@@ -144,7 +150,10 @@ include 'locations_model.php';
                 "<td><a>Description:</a></td>\n" +
                 "<td><textarea disabled id='manual_description' placeholder='Description'>"+locations[i][3]+"</textarea></td></tr>\n" +
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
                 "<td><a>Nombre:</a></td>\n" +
@@ -152,8 +161,11 @@ include 'locations_model.php';
                 "<td><a>Tipo:</a></td>\n" +
                 "<td><textarea disabled id='manual_tipo' placeholder='Tipo'>"+locations[i][3]+"</textarea></td></tr>\n" +
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 >>>>>>> master
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
                 "</table>\n" +
@@ -168,11 +180,16 @@ include 'locations_model.php';
                     $("#id").val(locations[i][0]);
                     $("#description").val(locations[i][3]);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
                     $("#nombre").val(locations[i][3]);
                     $("#tipo").val(locations[i][3]);
 =======
 >>>>>>> master
+=======
+                    $("#nombre").val(locations[i][3]);
+                    $("#tipo").val(locations[i][3]);
+>>>>>>> Stashed changes
 =======
                     $("#nombre").val(locations[i][3]);
                     $("#tipo").val(locations[i][3]);
@@ -192,6 +209,7 @@ include 'locations_model.php';
         function saveData(lat,lng) {
             var description = document.getElementById('manual_description').value;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
             var nombre = document.getElementById('manual_nombre').value;
             var tipo = document.getElementById('manual_tipo').value;
@@ -199,6 +217,11 @@ include 'locations_model.php';
 =======
             var url = 'locations_model.php?add_location&description=' + description + '&lat=' + lat + '&lng=' + lng;
 >>>>>>> master
+=======
+            var nombre = document.getElementById('manual_nombre').value;
+            var tipo = document.getElementById('manual_tipo').value;
+            var url = 'locations_model.php?add_location&description=' + description + nombre + tipo + '&lat=' + lat + '&lng=' + lng;
+>>>>>>> Stashed changes
 =======
             var nombre = document.getElementById('manual_nombre').value;
             var tipo = document.getElementById('manual_tipo').value;
