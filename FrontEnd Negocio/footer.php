@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+=======
+>>>>>>> master
 </div>
       <!-- /.container-fluid -->
 
@@ -6,7 +9,11 @@
       <footer class="sticky-footer">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
+<<<<<<< HEAD
             <span>Copyright © Vanilla <?php echo date("Y");?></span>
+=======
+            <span>Copyright © Vanilla 2020</span>
+>>>>>>> master
           </div>
         </div>
       </footer>
@@ -35,7 +42,11 @@
         <div class="modal-body">Elige "Cerrar Sesión" si estas listo para salir de la plataforma.</div>
         <div class="modal-footer">
           <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
+<<<<<<< HEAD
           <a class="btn btn-primary" href="../BackEnd Negocio/logout.php">Cerrar sesión</a>
+=======
+          <a class="btn btn-primary" href="../BackEnd Cliente/logout.php">Cerrar sesión</a>
+>>>>>>> master
         </div>
       </div>
     </div>
@@ -54,7 +65,11 @@
           <div class="modal-body">¿Estás seguro que deseas eliminarla?</div>
           <div class="modal-footer">
             <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
+<<<<<<< HEAD
             <a class="btn btn-primary" href="login.php" data-toggle="modal" data-target="#deleteAccountModal2">Eliminar cuenta</a>
+=======
+            <a class="btn btn-primary" href="login.html" data-toggle="modal" data-target="#deleteAccountModal2">Eliminar cuenta</a>
+>>>>>>> master
           </div>
         </div>
       </div>

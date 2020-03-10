@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,12 +22,19 @@
     }
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+=======
+>>>>>>> master
 
 <?php
 include_once 'locations_model.php';
 ?>
 
+<<<<<<< HEAD
 <div id="map"></div>
+=======
+
+<div id="map" class="mb-3"></div>
+>>>>>>> master
 
 <!------ Include the above in your HEAD tag ---------->
 <script>
@@ -62,6 +70,24 @@ include_once 'locations_model.php';
                     $("#confirmed").prop(confirmed,locations[i][4]);
                     $("#id").val(locations[i][0]);
                     $("#description").val(locations[i][3]);
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+                    $("#nombre").val(locations[i][3]);
+                    $("#tipo").val(locations[i][3]);
+=======
+>>>>>>> master
+=======
+                    $("#nombre").val(locations[i][3]);
+                    $("#tipo").val(locations[i][3]);
+>>>>>>> Stashed changes
+=======
+                    $("#nombre").val(locations[i][3]);
+                    $("#tipo").val(locations[i][3]);
+>>>>>>> Stashed changes
+>>>>>>> master
                     $("#form").show();
                     infowindow.setContent(marker.html);
                     infowindow.open(map, marker);
@@ -109,6 +135,28 @@ include_once 'locations_model.php';
             <input name="id" type='hidden' id='id'/>
             <td><a>Description:</a></td>
             <td><textarea disabled id='description' placeholder='Description'></textarea></td>
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+            <td><a>Nombre:</a></td>
+            <td><textarea disabled id='nombre' placeholder='Nombre'></textarea></td>
+            <td><a>Tipo:</a></td>
+            <td><textarea disabled id='tipo' placeholder='Tipo'></textarea></td>
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> master
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> master
         </tr>
         <tr>
             <td><b>Confirm Location ?:</b></td>
@@ -118,7 +166,12 @@ include_once 'locations_model.php';
         <tr><td></td><td><input type='button' value='Save' onclick='saveData()'/></td></tr>
     </table>
 </div>
+<<<<<<< HEAD
 
 <script async defer
         src="https://maps.googleapis.com/maps/api/js?language=en&key=AIzaSyC8VJYJlOb7OuKlthZfhY6FdVy6E8kP-p4&callback=initMap">
+=======
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?language=en&key=AIzaSyBId8QPxcART0pYyVoByO-mxDUeMvhlN_s&callback=initMap">
+>>>>>>> master
 </script>

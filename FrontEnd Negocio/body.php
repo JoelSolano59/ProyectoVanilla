@@ -44,11 +44,19 @@
     </li>
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<<<<<<< HEAD
       <i class="fas fa-percentage"></i>
         <span>Promociones</span>
       </a>
       <div class="dropdown-menu" aria-labelledby="pagesDropdown">
         <h6 class="dropdown-header">Promociones:</h6>
+=======
+      <i class="fas fa-heart"></i>
+        <span>Promocion</span>
+      </a>
+      <div class="dropdown-menu" aria-labelledby="pagesDropdown">
+        <h6 class="dropdown-header">Promocion:</h6>
+>>>>>>> master
         <div class="dropdown-divider"></div>
         <a class="dropdown-item" href="publicidad.php">Publicidad</a>
         <a class="dropdown-item" href="promocion.php">Promociones</a>
@@ -62,7 +70,11 @@
     </li>
     <li class="nav-item">
       <a class="nav-link" href="reservacion.php">
+<<<<<<< HEAD
         <i class="fas fa-calendar-check"></i>
+=======
+        <i class="fas fa-ticket-alt"></i>
+>>>>>>> master
         <span>Reservaciones</span></a>
     </li>
     <li class="nav-item">
@@ -70,6 +82,14 @@
         <i class="fas fa-map-marked-alt"></i>
         <span>Mapa</span></a>
     </li>
+<<<<<<< HEAD
+=======
+    <li class="nav-item">
+      <a class="nav-link" href="buscar.php">
+        <i class="fas fa-search"></i>
+        <span>Buscar</span></a>
+    </li>
+>>>>>>> master
   </ul>
 
   <div id="content-wrapper">

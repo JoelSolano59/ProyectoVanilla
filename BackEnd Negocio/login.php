@@ -19,7 +19,11 @@
 
         //Validar credenciales
         if (empty($correo_err) && empty($contra_err)) {
+<<<<<<< HEAD
             $sql = "SELECT id_negocio, nombre, correo, contra, perfil_negocio_id_perfil FROM negocio WHERE correo = ?";
+=======
+            $sql = "SELECT id_cliente, usuario, correo, contra FROM cliente WHERE correo = ?";
+>>>>>>> master
             if ($stmt = mysqli_prepare($link, $sql)) {
                 mysqli_stmt_bind_param($stmt, "s", $param_correo);
                 $param_correo = $correo;
@@ -27,16 +31,25 @@
                     mysqli_stmt_store_result($stmt);
                 }
                 if (mysqli_stmt_num_rows($stmt) == 1) {
+<<<<<<< HEAD
                     mysqli_stmt_bind_result($stmt, $id_negocio, $usuario, $correo, $hashed_contra, $perfil_negocio);
+=======
+                    mysqli_stmt_bind_result($stmt, $id_cliente, $usuario, $correo, $hashed_contra);
+>>>>>>> master
                     if (mysqli_stmt_fetch($stmt)) {
                         if(password_verify($contra, $hashed_contra)) {
                             session_start();
 
                             //Almacenar datos en variables de sesion
                             $_SESSION["loggedin"] = true;
+<<<<<<< HEAD
                             $_SESSION["id_negocio"] = $id_negocio;
                             $_SESSION["correo"] = $correo;
                             $_SESSION["id_perfil"] = $perfil_negocio;
+=======
+                            $_SESSION["id_cliente"] = $id_cliente;
+                            $_SESSION["correo"] = $correo;
+>>>>>>> master
                             
                             header("location: ../FrontEnd Negocio/index.php");
                         } else {

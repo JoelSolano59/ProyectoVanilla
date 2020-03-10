@@ -19,7 +19,11 @@
 
         //Validar credenciales
         if (empty($correo_err) && empty($contra_err)) {
+<<<<<<< HEAD
             $sql = "SELECT id_cliente, nombre, correo, contra, perfil_cliente_id_perfil FROM cliente WHERE correo = ?";
+=======
+            $sql = "SELECT id_cliente, usuario, correo, contra FROM cliente WHERE correo = ?";
+>>>>>>> master
             if ($stmt = mysqli_prepare($link, $sql)) {
                 mysqli_stmt_bind_param($stmt, "s", $param_correo);
                 $param_correo = $correo;
@@ -27,17 +31,29 @@
                     mysqli_stmt_store_result($stmt);
                 }
                 if (mysqli_stmt_num_rows($stmt) == 1) {
+<<<<<<< HEAD
                     mysqli_stmt_bind_result($stmt, $id_cliente, $usuario, $correo, $hashed_contra, $perfil_cliente);
                     if (mysqli_stmt_fetch($stmt)) {
                         if(password_verify($contra, $hashed_contra)) {
                             session_start();
                             
+=======
+                    mysqli_stmt_bind_result($stmt, $id_cliente, $usuario, $correo, $hashed_contra);
+                    if (mysqli_stmt_fetch($stmt)) {
+                        if(password_verify($contra, $hashed_contra)) {
+                            session_start();
+
+>>>>>>> master
                             //Almacenar datos en variables de sesion
                             $_SESSION["loggedin"] = true;
                             $_SESSION["id_cliente"] = $id_cliente;
                             $_SESSION["correo"] = $correo;
+<<<<<<< HEAD
                             $_SESSION["id_perfil"] = $perfil_cliente;
 
+=======
+                            
+>>>>>>> master
                             header("location: ../FrontEnd Cliente/index.php");
                         } else {
                             $contra_err = "La contraseña que has ingresado no es valida.";

@@ -20,8 +20,79 @@
       </div>
     </form>
 
+<<<<<<< HEAD
   <!-- Navbar -->
   <ul class="navbar-nav ml-auto ml-md-0"></ul>
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<!-- Navbar -->
+<ul class="navbar-nav ml-auto ml-md-0">
+  <li class="nav-item dropdown no-arrow mx-1">
+    <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fas fa-home"></i>
+      <span class="badge badge-danger">9+</span>
+    </a>
+    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="alertsDropdown">
+      <h6 class="dropdown-header">Inicio:</h6>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="index.html">Publicidad</a>
+      <a class="dropdown-item" href="index.html">Promociones</a>
+    </div>
+  </li>
+
+  <li class="nav-item dropdown no-arrow mx-1">
+    <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fas fa-heart"></i>
+      <span class="badge badge-danger">9+</span>
+    </a>
+    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="alertsDropdown">
+      <h6 class="dropdown-header">Lista de favoritos:</h6>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Restaurantes favoritos</a>
+      <a class="dropdown-item" href="#">Lista de amistades</a> 
+    </div>
+  </li>
+
+  <li class="nav-item dropdown no-arrow mx-1">
+    <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fas fa-bell"></i>
+      <span class="badge badge-danger">7</span>
+    </a>
+    <!--
+    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="messagesDropdown">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Something else here</a>
+    </div>
+  -->
+  </li>
+
+  <li class="nav-item dropdown no-arrow">
+    <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fas fa-search"></i>
+    </a>
+    <!--
+    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+      <h6 class="dropdown-header">Cuenta:</h6>
+      <a class="dropdown-item" href="#">Perfil</a>
+      <a class="dropdown-item" href="#">Configuración</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">Cerrar sesión</a>
+    </div>
+  -->
+  </li>
+</ul>
+=======
+  <!-- Navbar -->
+  <ul class="navbar-nav ml-auto ml-md-0"></ul>
+>>>>>>> Stashed changes
+=======
+  <!-- Navbar -->
+  <ul class="navbar-nav ml-auto ml-md-0"></ul>
+>>>>>>> Stashed changes
+>>>>>>> master
 
 </nav>
 
@@ -38,6 +109,20 @@
         <h6 class="dropdown-header">Cuenta:</h6>
         <div class="dropdown-divider"></div>
         <a class="dropdown-item" href="perfil cliente.php">Perfil</a>
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+        <a class="dropdown-item" href="perfil_usuario_config.html">Configuración</a>
+        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">Cerrar sesión</a>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="lista_cupones.html">
+=======
+=======
+>>>>>>> Stashed changes
+>>>>>>> master
         <a class="dropdown-item" href="config.php">Configuración</a>
         <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">Cerrar sesión</a>
       </div>
@@ -61,16 +146,47 @@
     </li>
     <li class="nav-item">
       <a class="nav-link" href="cupon.php">
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> master
         <i class="fas fa-ticket-alt"></i>
         <span>Cupones</span></a>
     </li>
     <li class="nav-item">
+<<<<<<< HEAD
       <a class="nav-link" href="mapa.php">
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+      <a class="nav-link" href="mapa.html">
+=======
+      <a class="nav-link" href="mapa.php">
+>>>>>>> Stashed changes
+=======
+      <a class="nav-link" href="mapa.php">
+>>>>>>> Stashed changes
+>>>>>>> master
         <i class="fas fa-map-marked-alt"></i>
         <span>Mapa</span></a>
     </li>
     <li class="nav-item">
+<<<<<<< HEAD
       <a class="nav-link" href="buscar.php">
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+      <a class="nav-link" href="buscar.html">
+=======
+      <a class="nav-link" href="buscar.php">
+>>>>>>> Stashed changes
+=======
+      <a class="nav-link" href="buscar.php">
+>>>>>>> Stashed changes
+>>>>>>> master
         <i class="fas fa-search"></i>
         <span>Buscar</span></a>
     </li>

@@ -9,6 +9,11 @@ if(isset($_GET['confirm_location'])) {
     confirm_location();
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> master
 function add_location(){
     $con=mysqli_connect ("localhost", 'root', '','vanilla');
     if (!$con) {
@@ -17,6 +22,30 @@ function add_location(){
     $lat = $_GET['lat'];
     $lng = $_GET['lng'];
     $description =$_GET['description'];
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+    $nombre =$_GET['nombre'];
+    $tipo =$_GET['tipo'];
+    // Inserts new row with place data.
+    $query = sprintf("INSERT INTO locations " .
+        " (id, lat, lng, description, nombre, tipo) " .
+        " VALUES (NULL, '%s', '%s', '%s', '%s', '%s');",
+        mysqli_real_escape_string($con,$lat),
+        mysqli_real_escape_string($con,$lng),
+        mysqli_real_escape_string($con,$description),
+        mysqli_real_escape_string($con,$nombre),
+        mysqli_real_escape_string($con,$tipo));
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> master
     // Inserts new row with place data.
     $query = sprintf("INSERT INTO locations " .
         " (id, lat, lng, description) " .
@@ -24,6 +53,14 @@ function add_location(){
         mysqli_real_escape_string($con,$lat),
         mysqli_real_escape_string($con,$lng),
         mysqli_real_escape_string($con,$description));
+<<<<<<< HEAD
+=======
+>>>>>>> master
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> master
 
     $result = mysqli_query($con,$query);
     echo"Inserted Successfully";
@@ -53,7 +90,23 @@ function get_confirmed_locations(){
     }
     // update location with location_status if admin location_status.
     $sqldata = mysqli_query($con,"
+<<<<<<< HEAD
 select id ,lat,lng,description,location_status as isconfirmed
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+select id ,lat,lng,description,nombre,tipo,location_status as isconfirmed
+=======
+select id ,lat,lng,description,location_status as isconfirmed
+>>>>>>> master
+=======
+select id ,lat,lng,description,nombre,tipo,location_status as isconfirmed
+>>>>>>> Stashed changes
+=======
+select id ,lat,lng,description,nombre,tipo,location_status as isconfirmed
+>>>>>>> Stashed changes
+>>>>>>> master
 from locations WHERE  location_status = 1
   ");
 
@@ -79,7 +132,23 @@ function get_all_locations(){
     }
     // update location with location_status if admin location_status.
     $sqldata = mysqli_query($con,"
+<<<<<<< HEAD
 select id ,lat,lng,description,location_status as isconfirmed
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+select id ,lat,lng,description,nombre,tipo,location_status as isconfirmed
+=======
+select id ,lat,lng,description,location_status as isconfirmed
+>>>>>>> master
+=======
+select id ,lat,lng,description,nombre,tipo,location_status as isconfirmed
+>>>>>>> Stashed changes
+=======
+select id ,lat,lng,description,nombre,tipo,location_status as isconfirmed
+>>>>>>> Stashed changes
+>>>>>>> master
 from locations
   ");
 

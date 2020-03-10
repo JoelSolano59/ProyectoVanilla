@@ -13,7 +13,11 @@
             $usuario_err = "Por favor, ingrese un nombre de usuario.";
         } else {
             //Prepara una declaracion de seleccion
+<<<<<<< HEAD
             $sql = "SELECT id_cliente FROM cliente WHERE nombre = ?";
+=======
+            $sql = "SELECT id_cliente FROM cliente WHERE usuario = ?";
+>>>>>>> master
             if($stmt = mysqli_prepare($link, $sql)) {
                 mysqli_stmt_bind_param($stmt, "s", $param_usuario);
                 $param_usuario = trim($_POST["usuario"]);
@@ -35,7 +39,11 @@
             $f_nacimiento_err = "Por favor, ingrese una fecha de nacimiento.";
         } else {
             //Prepara una declaracion de seleccion
+<<<<<<< HEAD
             $sql = "SELECT id_cliente FROM cliente WHERE fecha_nacimiento = ?";
+=======
+            $sql = "SELECT id_cliente FROM cliente WHERE f_nacimiento = ?";
+>>>>>>> master
             if($stmt = mysqli_prepare($link, $sql)) {
                 mysqli_stmt_bind_param($stmt, "s", $param_usuario);
                 $param_f_nacimiento = trim($_POST["f_nacimiento"]);
@@ -108,15 +116,22 @@
         //Validando Input de la contraseña 2
         if (empty(trim($_POST["contra2"]))) {
             $contra2_err = "Por favor, confirme su contraseña.";
+<<<<<<< HEAD
         } 
         else if (strlen(trim($_POST["contra1"])) < 8) {
             $contra1_err = "La contraseña debe de tener al menos 8 caracteres.";
+=======
+        }
+        else if (strlen(trim($_POST["contra2"])) == strlen(trim($_POST["contra1"]))) {
+            $contra2_err = "La contraseñas ingresadas no coinciden.";
+>>>>>>> master
         } else {
             $contra2 = trim($_POST["contra2"]);
         }
 
         //Comprobando los errores de entrada antes de insertar los datos en la base de datos
         if (empty($usuario_err) && empty($f_nacimiento_err) && empty($telefono_err) && empty($correo_err) && empty($contra1_err) && empty($contra2_err)) {
+<<<<<<< HEAD
             $sql = "INSERT INTO perfil_cliente (id_perfil, descripcion, nivel, avatar, puntos, comida_id_comida) VALUES (?, ?, ?, ?, ?, ?)";
             if ($stmt = mysqli_prepare($link, $sql)) {
                 mysqli_stmt_bind_param($stmt, "ssssss", $param_perfil, $param_descripcion, $param_nivel, $param_avatar, $param_puntos, $param_comida);
@@ -138,6 +153,12 @@
                 mysqli_stmt_bind_param($stmt, "sssssss", $param_id, $param_usuario, $param_f_nacimiento, $param_telefono, $param_correo, $param_contra2, $param_perfil);
                 //Estableciendo parametro
                 $param_id = 0;
+=======
+            $sql = "INSERT INTO cliente (usuario, f_nacimiento, telefono, correo, contra) VALUES (?, ?, ?, ?, ?)";
+            if ($stmt = mysqli_prepare($link, $sql)) {
+                mysqli_stmt_bind_param($stmt, "sssss", $param_usuario, $param_f_nacimiento, $param_telefono, $param_correo, $param_contra2);
+                //Estableciendo parametro
+>>>>>>> master
                 $param_usuario = $usuario;
                 $param_f_nacimiento = $f_nacimiento;
                 $param_telefono = $telefono;
@@ -146,7 +167,11 @@
                 if (mysqli_stmt_execute($stmt)) {
                     header("location: ../FrontEnd Cliente/login.php");
                 } else {
+<<<<<<< HEAD
                     echo " Algo salio mal, intentalo despues (cliente).";
+=======
+                    echo " Algo salio mal, intentalo despues.";
+>>>>>>> master
                 }
             }
         }   

@@ -24,6 +24,7 @@ require "../BackEnd Negocio/session.php";
   <!-- Custom styles for this template-->
   <link href="css/sb-admin.css" rel="stylesheet">
 
+<<<<<<< HEAD
   <style>
         #map {
             justify-content: center;
@@ -34,4 +35,6 @@ require "../BackEnd Negocio/session.php";
         }
     </style>
 
+=======
+>>>>>>> master
 </head>

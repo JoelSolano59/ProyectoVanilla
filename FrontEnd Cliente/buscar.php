@@ -4,7 +4,11 @@ require_once "body.php";
 ?>
 
 <div class="input-group">
+<<<<<<< HEAD
     <div class="input-group-prepend"><span class="input-group-text">Buscar</span></div><input class="form-control" type="text" name="buscar" id="buscar"/>
+=======
+    <div class="input-group-prepend"><span class="input-group-text">Buscar</span></div><input class="form-control" type="text" />
+>>>>>>> master
     <div class="input-group-append"><button class="btn btn-primary" type="button"><i class="fas fa-search"></i></button></div>
 </div>   
 <hr/>
@@ -187,14 +191,38 @@ require_once "body.php";
                     <input type="checkbox" class="form-check-input" id="formCheck-1" />
                     <label class="form-check-label" for="formCheck-1">Desayunos</label>
                 </div>
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="formCheck-1" />
+                    <label class="form-check-label" for="formCheck-1"></label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+=======
+=======
+>>>>>>> Stashed changes
+>>>>>>> master
             </div>
         </div>
     </div>
     <div class="card mb-3">
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> master
         <div class="card-header" role="tab">
             <h5 class="mb-0"><a data-toggle="collapse" aria-expanded="false" aria-controls="accordion-1 .item-2" href="#accordion-1 .item-2">Resultados</a></h5>
         </div>
         <div class="collapse item-2" role="tabpanel" data-parent="#accordion-1">
+<<<<<<< HEAD
             <div id="datos">
             <div class="card-body">
                 <div class="media"><img src="images/2079821.png" width="150" class="mr-3"/>
@@ -204,11 +232,50 @@ require_once "body.php";
                         <a href="#">Ver perfil</a>
                     </div>
                 </div>
+=======
+            <div class="card-body">
+            <div class="media"><img src="images/2079821.png" width="150" class="mr-3"/>
+            <div class="media-body">
+                <h5>Media Heading</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus nisl ac diam feugiat, non vestibulum libero posuere. Vivamus pharetra leo non nulla egestas, nec malesuada orci finibus. </p>
+                <a href="#">Ver perfil</a>
+            </div>
+        </div>
+        <hr />
+        <div class="media"><img src="images/2079821.png" width="150" class="mr-3"/>
+            <div class="media-body">
+                <h5>Media Heading</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus nisl ac diam feugiat, non vestibulum libero posuere. Vivamus pharetra leo non nulla egestas, nec malesuada orci finibus. </p>
+                <a href="#">Ver perfil</a>
+            </div>
+        </div>
+        <hr />
+        <div class="media"><img src="images/2079821.png" width="150" class="mr-3"/>
+            <div class="media-body">
+                <h5>Media Heading</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus nisl ac diam feugiat, non vestibulum libero posuere. Vivamus pharetra leo non nulla egestas, nec malesuada orci finibus. </p>
+                <a href="#">Ver perfil</a>
+            </div>
+        </div>
+        <hr />
+        <div class="media"><img src="images/2079821.png" width="150" class="mr-3"/>
+            <div class="media-body">
+                <h5>Media Heading</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus nisl ac diam feugiat, non vestibulum libero posuere. Vivamus pharetra leo non nulla egestas, nec malesuada orci finibus. </p>
+                <a href="#">Ver perfil</a>
+            </div>
+        </div>
+>>>>>>> master
             </div>
         </div>
     </div>
 </div>                      
 
+<<<<<<< HEAD
+=======
+          
+
+>>>>>>> master
 <?php
 require_once "footer.php";
 ?>
